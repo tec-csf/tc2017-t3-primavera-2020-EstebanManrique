@@ -49,6 +49,8 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 *Las dos estructuras previamente mencionadas se conjuntan para la creación de un árbol binario en donde el nodo raíz (matriz resultante del problema planteado) resulta de los productos de sus nodos hijos y estos nodos hijos dependen completamente de sus sub-niveles de nodos hijos. De esta manera se pueden conectar todos los subproductos dentro del problema para obtener la matriz resultante que solucione al mismo.*
 
+![alt text] (https://github.com/tec-csf/tc2017-t3-primavera-2020-EstebanManrique/blob/master/Examples/MultiplicacionMatrices.png.jpg)
+
 ### 2.1 Pasos a seguir para utilizar la aplicación.
 
 *[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
