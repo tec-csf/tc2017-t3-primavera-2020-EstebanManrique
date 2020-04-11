@@ -57,7 +57,18 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 *Problema 2: Coloreo de Nodos*
 
-*El problema consiste en darle un color (en este caso un número) a cada nodo que pertenezca a un grafo conexo sin que 2 o más nodos adyacentes tengan un color repetido.*
+*El problema consiste en darle un color (en este caso un número mayor a 1) a cada nodo que pertenezca a un grafo conexo sin que 2 o más nodos adyacentes tengan un color repetido. Este problema puede ser aproximado con distintos enfoques pero si decidió diseñarlo mediante un algoritmo de tipo ávido*
+
+*El programa primero le pide al usuario que introduzca el número de nodos que desea tener en el grafo a ser coloreado. Debido a razones de prueba y para demmostrar que el algoritmo sirve para cualquier escenario, se programó la solución de tal manera en que el número de conexiones entre nodos y los nodos que conforman a cada una de las conexiones sea un proceso por completo.*
+
+*Se programó una clase Grafo que cuenta con 2 atributos (uno que recibe el número/color de cada nodo y el otro es una lista adyacente que contiene todos los nodos a los que cada uno de los elementos de un grafo tiene relaciones con -incluido el mismo nodo en caso de que sea una conexión a si mismo-). Asimismo, se cuenta con 2 métodos: addConnection(), el cual conecta a 2 nodos determimados y Coloring(), el cual se explica a continuación.*
+
+*Cuando se aplica el método Coloring, el programa irá revisando cada uno de los elementos en la lista de adyacencia previamente mencionada (estructura list); previo a esta revisión, a cada nodo de la lista de adyacencia se le asignará un valor por default (-1) que será cambiado cada vez que se le asigne un nuevo número a cada uno de los nodos del grafo. Esta asignación de nodos debe contemplar a todos los nodos adyacentes.*
+
+*Una vez que todos los nodos recibieron su debido color, se impirme en consola cada una de estas asignaciones para que el usuario pueda visualizar el "coloreo". Terminada la impresión en consola, se resetean los colores de cada nodo. Como nota adicional, vale la pena mencionar que el número de colores/números que pueden considerarse como elecciones para cada nodo nunca rebasan el máximo grado del nodo con más conexiones en el grafo.*
+
+
+*La complejidad temporal presentada para este problema es de O(n^2) principalmente por los recorridos realizados en las listas de adyacencia, mientras que la espacial es de O(n).*
 
 ### 2.1 Pasos a seguir para utilizar la aplicación.
 
