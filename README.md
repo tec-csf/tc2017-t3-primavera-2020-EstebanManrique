@@ -51,6 +51,8 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 <img src = "https://github.com/tec-csf/tc2017-t3-primavera-2020-EstebanManrique/blob/master/Examples/MultiplicacionMatrices.png.jpg" >
 
+*La imagen presentada muestra un ejemplo con 4 matrices; La primera tabla contempla el número de operaciones a ser realizadas para encontrar el número de operaciones idóneo para solucionar el problema. Este número siempre se encontrará en la fila 1 y en la última columna de la tabla. La segunda tabla contempla el orden que se debe seguir para la implementación óptima de la multiplicación de matrices. Esta tabla desemboca en el árbol binario previamente mencionado, donde la raiz contiene a la matriz resultante. Finalmente, se imprime el camino a seguir, el número de operaciones y la matriz resultante.*
+
 ### 2.1 Pasos a seguir para utilizar la aplicación.
 
 *[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
