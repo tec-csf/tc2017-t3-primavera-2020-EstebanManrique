@@ -3,3 +3,4 @@ language: cpp
 
 script:
   - g++ Sources/MultiplicacionArrays.cpp -std=c++17
+  - g++ Sources/ColoreoNodos.cpp -std=c++17
