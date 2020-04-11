@@ -365,7 +365,8 @@ class BT
 int main()
 {
     Matrixes m;
-    m.numberMatrixes = 4;
+    cout<<"Introducir el número de matrices con el cual se trabajará en el producto encadenado de matrices: ";
+    cin>>m.numberMatrixes;
     m.generateMatrixes(m.numberMatrixes);
     m.findBestMultiplicationStrategy(m.numberMatrixes);
     
