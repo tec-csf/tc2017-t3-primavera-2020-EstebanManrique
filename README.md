@@ -74,8 +74,17 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 *La complejidad temporal presentada para este problema es de O(n^2) principalmente por los recorridos realizados en las listas de adyacencia, mientras que la espacial es de O(n).*
 
 ### 2.1 Pasos a seguir para utilizar la aplicación.
+1. Abrir terminal deñ equipo donde se probarán códigos.
 
-*[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
+2. Acceder al directorio donde se clonará el repositorio con los códigos de esta tarea.
+
+3. Usar el comando "git clone" y posteriormente colocar el link del repositorio: https://github.com/tec-csf/tc2017-t3-primavera-2020-EstebanManrique.git
+
+4. Cuando de hayan hehco los pasos anteriores, compilar el código para la solución de la multiplicación de matrices como cpp MultiplicaciónArrays.cpp o para la solución del coloreo de grafos como cpp ColoreoNodos.cpp
+
+5. Correr el programa compilado con el comando ./a.out
+
+6. Los programas le pedirán introducir el número de matrices y sus especificaciones o el número de nodos con los que el grafo trabajará.
 
 ## 3. Referencias
 
