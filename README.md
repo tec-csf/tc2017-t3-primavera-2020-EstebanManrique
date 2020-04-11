@@ -53,6 +53,12 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 *La imagen presentada muestra un ejemplo con 4 matrices; La primera tabla contempla el número de operaciones a ser realizadas para encontrar el número de operaciones idóneo para solucionar el problema. Este número siempre se encontrará en la fila 1 y en la última columna de la tabla. La segunda tabla contempla el orden que se debe seguir para la implementación óptima de la multiplicación de matrices. Esta tabla desemboca en el árbol binario previamente mencionado, donde la raiz contiene a la matriz resultante. Finalmente, se imprime el camino a seguir, el número de operaciones y la matriz resultante.*
 
+*La complejidad temporal presentada para este problema es de O(n^3), mientras que la espacial es de O(n^2).*
+
+*Problema 2: Coloreo de Nodos*
+
+*El problema consiste en darle un color (en este caso un número) a cada nodo que pertenezca a un grafo conexo sin que 2 o más nodos adyacentes tengan un color repetido.*
+
 ### 2.1 Pasos a seguir para utilizar la aplicación.
 
 *[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
