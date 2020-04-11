@@ -67,6 +67,9 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 *Una vez que todos los nodos recibieron su debido color, se impirme en consola cada una de estas asignaciones para que el usuario pueda visualizar el "coloreo". Terminada la impresión en consola, se resetean los colores de cada nodo. Como nota adicional, vale la pena mencionar que el número de colores/números que pueden considerarse como elecciones para cada nodo nunca rebasan el máximo grado del nodo con más conexiones en el grafo.*
 
+<img src = "https://github.com/tec-csf/tc2017-t3-primavera-2020-EstebanManrique/blob/master/Examples/ColoreadoNodos.jpg">
+
+*La imagen presentada refleja como el programa rellenaría (cada color serín un número mayor a 1) un grafo aleatorio compuesto por 6 nodos y 8 conexiones entre sí.*
 
 *La complejidad temporal presentada para este problema es de O(n^2) principalmente por los recorridos realizados en las listas de adyacencia, mientras que la espacial es de O(n).*
 
@@ -76,4 +79,6 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 ## 3. Referencias
 
-*[Incluya aquí las referencias a sitios de interés y cualquier otra información que haya utilizado para realizar la actividad y que le puedan ser de utilidad a otras personas que quieran usarlo como referencia]*
+*https://medium.com/@avik.das/dynamic-programming-deep-dive-chain-matrix-multiplication-a3b8e207b201*
+*https://home.cse.ust.hk/~dekai/271/notes/L12/L12.pdf*
+*https://iq.opengenus.org/graph-colouring-greedy-algorithm/*
