@@ -43,7 +43,11 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 
 *El número de operaciones se calcula para cada posible combinación. Como se presenta en la siguiente tabla (la cual fue programda como un vector en la solución propuesta), se van introduciendo las cantidades de operaciones por parejas. Habrá casos en donde se tengan distintas combinaciones y se deba obtener el mínimo número de operaciones para realizar la tarea. Para lo anterior de utilizó la siguiente fórmula:*
 
-*min{matriz[i,k] + matriz[k+1, j] + (columnas matriz[i,k] * columnas matriz[k+1,j] * filas matriz[k+1,j])}*
+*min_operaciones = {matriz[i,k] + matriz[k+1, j] + (columnas matriz[i,k] * columnas matriz[k+1,j] * filas matriz[k+1,j])}*
+
+*A la par de la obtención y guardado de la cantidad de operaciones, se va guardando en una estructura distinta a la mencionada previamente, el camino a seguir. Teniendo en cuenta esto, se puede imprimir el camino de multiplicación a seguir para encontrar ka matriz resultante de la manera más óptima. Este camino se representa en este caso como una secuencia de matrices y pares de paréntesis que delimitan e indican el camino a seguir para la multiplicación completa y la obtención de la matriz resultante.*
+
+*Las dos estructuras previamente mencionadas se conjuntan para la creación de un árbol binario en donde el nodo raíz (matriz resultante del problema planteado) resulta de los productos de sus nodos hijos y estos nodos hijos dependen completamente de sus sub-niveles de nodos hijos. De esta manera se pueden conectar todos los subproductos dentro del problema para obtener la matriz resultante que solucione al mismo.*
 
 ### 2.1 Pasos a seguir para utilizar la aplicación.
 
