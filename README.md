@@ -3,7 +3,7 @@
 ---
 
 ##### Integrantes:
-1. *Esteban Manrique de Lara Sirvent* - *A01027077* - *Campus Santa Fe*
+1. *Esteban Manrique de Lara Sirvent* - *A01027077* - *Campus Santa Fe* 
 
 ---
 ## 1. Aspectos generales
