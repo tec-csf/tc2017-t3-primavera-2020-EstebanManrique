@@ -44,11 +44,6 @@ class Graph
         adyacencyList = new list<int>[graphIdentifier];
     }
 
-    ~Graph() //Class Destructor
-    {
-        delete[] adyacencyList;
-    }
-
     /**
      * Creates a connection between 2 nodes
      * 
@@ -121,7 +116,7 @@ class Graph
         }
         for(int i = 0; i<graphIdentifier; i++)
         {
-            cout << "Vertice " << i << ": numero "<<nodesWithColor.at(i) << endl;
+            cout << "Vertice " << i << ": numero "<<nodesWithColor.at(i) + 1<< endl;
         }
     }
 
@@ -149,5 +144,4 @@ int main()
         gr.addConnection(rand()%graphNumber, rand()%graphNumber);
     }
     gr.Coloring();
-    gr.~Graph();
 }
