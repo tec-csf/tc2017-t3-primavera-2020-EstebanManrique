@@ -140,14 +140,14 @@ int main()
     cout<<"Introduce el número de nodos a ser introducidos en el grafo"<<endl;
     cin>>graphNumber;
 
-    Graph g(graphNumber);
+    Graph gr(graphNumber);
     
     srand(time(NULL));
     
     for(int i = 0; i<(graphNumber+rand()%4); i++)
     {
-        g.addConnection(rand()%graphNumber, rand()%graphNumber);
+        gr.addConnection(rand()%graphNumber, rand()%graphNumber);
     }
-    g.Coloring();
-    g.~Graph();
+    gr.Coloring();
+    gr.~Graph();
 }
