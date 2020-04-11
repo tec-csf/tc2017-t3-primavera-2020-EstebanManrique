@@ -1,7 +1,7 @@
 // -*- lsst-c++ -*-
 
 /*
- * This file is part of tc2017-t3-primavera-2020-EstebanManrique
+ * This file is part of tc2017-t3-primavera-2020-EstebanManrique 
  *
  * Developed for Algorithms Design and Analysis Class.
  * See the README file at the repository's root for details of code ownership.
