@@ -31,14 +31,21 @@ El proyecto debe seguir la siguiente estructura de carpetas:
 - / 			        # Raíz del repositorio
     - README.md			# Archivo con la información general de la actividad (este archivo)
     - sources  			# Códigos fuente con la solución
-    - examples			# Archivos de ejemplo que pueden utilizarse para verificar que la solución funciona.
 ```
 
 ## 2. Solución
 
-*[Incluya aquí una explicación de la solución implementada]*
+*Problema 1: Multiplicación encadenada de matrices*
 
-### 2.1 Pasos a seguir para utilizar la aplicación
+*El problema consiste en poder multiplicar de la manera más óptima un número n de matrices; se entiende por óptima como la manera en donde se requiera la menor cantidad de multiplicaciones escalares entre los diferentes elementos de las matrices. Para resolver esta prblemática se decidió adoptar un estilo de Programación Dinámica.*
+
+*El primer paso adoptado en el programa diseñado para este problema es la generación de n matrices con números generados de manera aleatoria. Estas matrices se decidió que fueran guardadas en un vedctor de vectores de int's; lo anterior debido a que el número de matrices y la cantidad de columnas y filas de éstas siempre será variable. Teniendo las matrices ya generadas, se debe calcular el número de operaciones que se deben realizar para concretar las distintas combinaciones de multiplicaciones entre las matrices*
+
+*El número de operaciones se calcula para cada posible combinación. Como se presenta en la siguiente tabla (la cual fue programda como un vector en la solución propuesta), se van introduciendo las cantidades de operaciones por parejas. Habrá casos en donde se tengan distintas combinaciones y se deba obtener el mínimo número de operaciones para realizar la tarea. Para lo anterior de utilizó la siguiente fórmula: *
+
+*min{matriz[i,k] + matriz[k+1, j] + (columnas matriz[i,k] * columnas matriz[k+1,j] * filas matriz[k+1,j])}*
+
+### 2.1 Pasos a seguir para utilizar la aplicación.
 
 *[Incluya aquí una guía paso a paso para poder utilizar la aplicación, desde la clonación del repositorio, la compilación del código hasta la ejecución de los ejemplos para visualizar los resultados.]*
 
